@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+   <title>html practice 'n shit</title>
+  </head>
+  
+ <body>
+  <i>italics</i>
+  <em>emphasis</em>
+   <p>im working on <a href="https://github.com/LadyNymph/hesperi">this</a> shit.
+     <img src="samael-lilith.png" alt="ir.hesperi.net" />
+  
+  <h1>Notes</h1>
+    <p>i'm trying to learn html the right way, but i dont think it's working. i'm adding redundant shit and stuff. i've only just started because of a<br>chance of a lifetime and i'm willing to take it!</p>
+      <br>
+  <h2>Updates</h2>
+    <p>::UD1:: i am still learning basic pieces of HTML. i have only covered paragraphs, tags, headings, links, etc. i am making decent progress i think!</p>
+    <p>::UD2:: i added some other little shits to my HTML to try it out.</p>
+      <br>
+     <a href="ir.hesperi.net" target="_blank">hesperi for the win!</a>
+ </body>
+ 
+<!--excluded the <meta> because i don't know how to use it. excluded <tag> because i dont know what that tag is. excluded the <style> because i personally dont like to mix HTML and CSS in the same file.-->
+<!--included <h1> <h2> titles n shit. included target attribute so it'll open a new tab/window instead of overriding the origin webpage. i put shit in a way that makes sense to me.-->
+
+</html>
