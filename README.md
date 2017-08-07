@@ -7,3 +7,6 @@ i have no clue what we're about. this is a project company, not a full on corpor
 and again, thank you for the support...
 
 ~LadyNymph
+
+
+for the more curious people, feel free to join the hesperi Discord: https://discord.gg/FtSxEJb
