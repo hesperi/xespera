@@ -1,0 +1,35 @@
+{
+    "nickname" "Daxus",
+    "server": "irc.esper.net",MzIxNTU3OTg1NDA0OTExNjI3.DBf2RA.shArnps5Hnk2cjOpy4_4QVhRIEw
+    "discordToken": "",
+    "autoSendCommands": [ // Commands that will be sent on connect
+      ["PRIVMSG", "NickServ", "IDENTIFY Daxus a1153466236"],
+      ["MODE", "test", "+x"],
+      ["AUTH", "test", "password"]
+	
+    ],
+    "channelMapping": { // Maps each Discord-channel to an IRC-channel, used to direct messages to the correct place
+      "#general": "#wrathhaven", // Add channel keys after the channel name
+      "1234567890": "321566455818878978" // Use a discord channel ID instead of its name (so you can rename it or to disambiguate)
+    },
+    "ircOptions": { // Optional node-irc options
+      "floodProtection": false, // On by default
+      "floodProtectionDelay": 1000 // 500 by default
+    },
+    "format": { // Optional custom formatting options
+      // Patterns, represented by {$patternName}, are replaced when sending messages
+      "commandPrelude": "Command sent by {$nickname}", // Message sent before a command
+      "ircText": "<{$displayUsername}> {$text}", // When sending a message to IRC
+      "urlAttachment": "<{$displayUsername}> {$attachmentURL}", // When sending a Discord attachment to IRC
+      "discord": "**<{$author}>** {$withMentions}" // When sending a message to Discord
+      // Other patterns that can be used:
+      // {$discordChannel} (e.g. #general)
+      // {$ircChannel} (e.g. #irc)
+    },
+    "ircNickColor": false, // Gives usernames a color in IRC for better readability (on by default)
+    // Makes the bot hide the username prefix for messages that start
+    // with one of these characters (commands):
+    "commandCharacters": ["!", "."],
+    "ircStatusNotices": true // Enables notifications in Discord when people join/part in the relevant IRC channel
+  }
+]
